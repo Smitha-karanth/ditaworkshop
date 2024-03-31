@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="software_domain_elements">
+    <title>Software Domain Elements</title>
+    <shortdesc>The elements in the software domain each have a specific semantic
+        purpose.</shortdesc>
+    <conbody>
+        <dl id="dl_j2g_rkt_v1c">
+            <dlentry>
+                <dt>msgph</dt>
+                <dd><p>message phrase</p>A server log entry <msgph>I:O</msgph> is equivalent to the
+                    text message: <msgph>Information successful</msgph>.</dd>
+            </dlentry>
+            <dlentry>
+                <dt>msgblock</dt>
+                <dd><p>message block</p>The following are the server log entry
+                    codes:<msgblock id="msgblock_snr_qlt_v1c">I:0
+I:1
+P:0
+P:1</msgblock></dd>
+            </dlentry>
+            <dlentry>
+                <dt>msgnum</dt>
+                <dd><p>message number</p>A server log entry <msgnum>65</msgnum> is equivalent to the
+                    text message: <msgph>Information successful</msgph></dd>
+            </dlentry>
+            <dlentry>
+                <dt>cmdname</dt>
+                <dd><p>command name</p>Use the <cmdname>dir</cmdname> command to list all files and
+                    folders in a selected directory.</dd>
+            </dlentry>
+            <dlentry>
+                <dt>varname</dt>
+                <dd><p>variable (to be provided by user) name</p>Use the <cmdname>dir</cmdname>
+                    <varname>/p</varname> to pause at the end of each page. You need to press a key
+                    to see the rest of information.</dd>
+            </dlentry>
+            <dlentry>
+                <dt>filepath</dt>
+                <dd><p>file name or path, or URI</p>The server log is saved in the
+                        <filepath>log.txt</filepath> file.</dd>
+            </dlentry>
+            <dlentry>
+                <dt>userinput</dt>
+                <dd><p>user input</p>After you type <userinput>cd..</userinput>, enter
+                        <userinput>dir</userinput>at the prompt.</dd>
+            </dlentry>
+            <dlentry>
+                <dt>systemoutput</dt>
+                <dd><p>system output</p>The following list of files and folders are listed at the
+                            console:<p><systemoutput>C:\>dir Volume in drive C is Windows Volume
+                            Serial Number is CA39-F4E9 Directory of C:\ 04-09-2023 10:40 &lt;DIR>
+                            AppData 09-03-2024 12:06 &lt;DIR> DATA 24-03-2024 12:35 &lt;DIR>
+                            DitaWorkshop 12-10-2023 13:22 12,288 DumpStack.log 04-09-2023 10:41
+                            988,606 install.log 04-09-2023 10:41 &lt;DIR> Kairos 07-05-2022 10:54
+                            &lt;DIR> PerfLogs 09-03-2024 22:45 &lt;DIR> Program Files 30-09-2023
+                            21:05 &lt;DIR> Program Files (x86) 28-08-2023 11:54 &lt;DIR> SWSetup
+                            22-08-2023 17:39 &lt;DIR> Users 17-03-2024 13:35 &lt;DIR> Windows 2
+                            File(s) 1,000,894 bytes 10 Dir(s) 322,949,386,240 bytes
+                            free</systemoutput></p></dd>
+            </dlentry>
+        </dl>
+    </conbody>
+</concept>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="map_elements">
+    <title>Map elements</title>
+    <shortdesc>The <i>map elements</i> are the elements used in ditamaps and bookmaps.</shortdesc>
+    <conbody>
+        <p>The map elements are a small set of elements, some of which have been specialised into
+            other elements for use in bookmaps.</p>
+        <p>The map elements include:<ul id="ul_zvl_wlr_x1c">
+                <li>map</li>
+                <li>topicref</li>
+                <li>topicmeta</li>
+                <li>topicgroup</li>
+                <li>topichead</li>
+                <li>reltable </li>
+            </ul></p>
+    </conbody>
+</concept>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="utilities_domain_elements">
+    <title>Utilities domain elements</title>
+    <shortdesc>The elements in the utilities domain each have a specific purpose in defining image
+        map properties.</shortdesc>
+    <prolog>
+        <metadata>
+            <keywords>
+                <indexterm>utilities domain</indexterm>
+                <indexterm>image map</indexterm>
+                <indexterm>hotspot area</indexterm>
+                <indexterm>coordinates</indexterm>
+                <indexterm>shape</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>
+            <dl>
+                <dlentry>
+                    <dt>imagemap</dt>
+                    <dd>client-side image map</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>area</dt>
+                    <dd>hotspot area within an image map</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>coords</dt>
+                    <dd>co-ordinates of a hotspot area within an image map</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>shape</dt>
+                    <dd>shape of a hotspot area within an image map</dd>
+                </dlentry>
+            </dl>
+        </p>
+        <imagemap id="imagemap_o4y_vqk_x1c">
+            <image href="Picture1.png" id="image_p4y_vqk_x1c"/>
+           <area>
+                <shape>rect</shape>
+                <coords>115, 32, 243, 161</coords>
+                <xref href="introduction_to_dita.dita" format="dita">Click here to learn more about
+                    DITA.</xref>
+            </area>
+            <area>
+                <shape>rect</shape>
+                <coords>256, 31, 385, 160</coords>
+                <xref href="topic_elements.dita" format="dita">Click here to learn more about the
+                    Topic elements.</xref>
+            </area>
+            <area>
+                <shape>rect</shape>
+                <coords>116, 173, 245, 301</coords>
+                <xref
+                    href="https://www.oxygenxml.com/dita/1.3/specs/archSpec/base/ditamap-elements.html"
+                    format="html" scope="external">Click here to know more about the DITA Map
+                    elements.</xref>
+            </area>
+        </imagemap>
+    </conbody>
+</concept>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="programming_domain_elements">
+    <title>Programming domain elements</title>
+    <conbody>
+        <p>The elements in the programming domain each have a specific semantic purpose.</p>
+        <p><b>Code Parameters</b><dl id="dl_cxr_dyy_w1c">
+                <dlentry>
+                    <dt>apiname</dt>
+                    <dd>API name<p>Example: The <apiname>Google Map API</apiname> document provides
+                            the best practices for integration with your application.</p></dd>
+                </dlentry>
+                <dlentry>
+                    <dt>codeblock</dt>
+                    <dd>code block<p>Example: To print a directory listing, type:
+                            <codeblock id="codeblock_m5d_3fm_s1c" outputclass="language-cmd">dir > prn</codeblock></p></dd>
+                </dlentry>
+                <dlentry>
+                    <dt>codeph</dt>
+                    <dd>code phrase<p>Example: The command <codeph>dir read *.*</codeph> lists all
+                            files in the current directory that begin with read with any
+                            extension.</p></dd>
+                </dlentry>
+                <dlentry>
+                    <dt>option</dt>
+                    <dd>one of a set of options<p>Example: To display the files name in wide format,
+                            add <option>/w</option> option with the command <codeph>dir
+                                c:\*.txt</codeph></p></dd>
+                </dlentry>
+                <dlentry>
+                    <dt>parmname</dt>
+                    <dd>parameter or arguement<p>Example: Use the
+                                <parmname>google-auth-oauthlib</parmname> parameter with
+                                <cmdname>pip install --upgrade</cmdname> command for user
+                            authorization.</p></dd>
+                </dlentry>
+            </dl></p>
+        <p><b>Parameter list parameters</b><dl id="dl_i2m_fj2_x1c">
+                <dlentry>
+                    <dt>parml</dt>
+                    <dd>parameter list</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>plentry</dt>
+                    <dd>parameter list entry (parml)</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>pt</dt>
+                    <dd>parameter term (within plentry)</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>pd</dt>
+                    <dd>parameter definition (within plentry)<p><i>Example for Parameter list
+                                parameters</i>:</p><p>The following table lists the parameters used
+                            with the <b>dir</b> command.</p><parml id="parml_j5t_3j2_x1c">
+                            <plentry>
+                                <pt><codeph>[&lt;filename>]</codeph></pt>
+                                <pd>Specifies a particular file or group of files for which you want
+                                    to see a listing.</pd>
+                            </plentry>
+                            <plentry>
+                                <pt><codeph>[&lt;drive>:][&lt;path>]</codeph></pt>
+                                <pd>Specifies the drive and directory for which you want to see a
+                                    listing.</pd>
+                            </plentry>
+                        </parml></dd>
+                </dlentry>
+            </dl></p>
+        <p><b>Syntax list parameters</b><dl id="dl_s22_xj2_x1c">
+                <dlentry>
+                    <dt>synph</dt>
+                    <dd>syntax phrase</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>syntaxdiagram</dt>
+                    <dd>syntax diagram</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>kwd</dt>
+                    <dd>syntax keyword (used only for syntax diagrams)</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>var</dt>
+                    <dd>variable that a user must supply (used only for syntax diagrams)</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>groupseq</dt>
+                    <dd>group of syntactic units (used only for syntax diagrams)</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>groupchoice</dt>
+                    <dd>choice of a group of syntactic units (used only for syntax diagrams)</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>groupcomp</dt>
+                    <dd>group of composite syntactic units (used only for syntax diagrams)</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>fragment</dt>
+                    <dd>fragment of Syntax (used only for syntax diagrams)</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>fragref</dt>
+                    <dd>cross-reference to a fragment of syntax<p>Example for parameters: synph,
+                            syntaxdiagram, groupseq, groupchoice, groupcomp, fragment,
+                                fragref<syntaxdiagram id="syntaxdiagram_ifd_xff_x1c">
+                                <title>Copy File</title>
+                                <groupseq>
+                                    <kwd>CopyF</kwd>
+                                </groupseq>
+                                <groupcomp>
+                                    <var>input-filename</var>
+                                    <kwd>*INFILE</kwd>
+                                </groupcomp>
+                                <groupseq>
+                                    <var>output-filename</var>
+                                    <kwd>*OUTFILE</kwd>
+                                </groupseq>
+                                <fragment conref="#programming_domain_elements/overlay"/>
+                                <groupchoice>
+                                    <var>input-filename</var>
+                                    <kwd>*INFILE</kwd>
+                                </groupchoice>
+                                <groupchoice>
+                                    <var>output-filename</var>
+                                    <kwd>*OUTFILE</kwd>
+                                </groupchoice>
+                                <fragment id="overlay">
+                                    <title>Overlay</title>
+                                    <groupchoice>
+                                        <kwd>*OVERLAP</kwd>
+                                        <kwd>*Prompt</kwd>
+                                    </groupchoice>
+                                </fragment>
+                            </syntaxdiagram></p></dd>
+                </dlentry>
+                <dlentry>
+                    <dt>synblk</dt>
+                    <dd>block of small pieces of syntax<p>Example: <syntaxdiagram>
+                                <synblk>
+                                    <groupseq>
+                                        <kwd>this</kwd>
+                                        <sep>-</sep>
+                                        <kwd>is</kwd>
+                                        <sep>-</sep>
+                                        <kwd>a</kwd>
+                                        <sep>-</sep>
+                                        <var>test</var>
+                                    </groupseq>
+                                </synblk>
+                            </syntaxdiagram></p></dd>
+                </dlentry>
+                <dlentry>
+                    <dt>synnote</dt>
+                    <dd>footnote within syntax (syntax note)<p>Example:<syntaxdiagram>
+                                <groupcomp>
+                                    <var>one</var>
+                                    <var>two</var>
+                                    <var>three</var>
+                                </groupcomp>
+                                <synnote id="synnote_dlw_phf_x1c">My first syntax note</synnote>
+                            </syntaxdiagram></p></dd>
+                </dlentry>
+                <dlentry>
+                    <dt>synnoteref</dt>
+                    <dd>cross-reference to a syntax note<p>Example:<syntaxdiagram>
+                                <synnote conref="#programming_domain_elements/synnote_dlw_phf_x1c"/>
+                            </syntaxdiagram></p></dd>
+                </dlentry>
+                <dlentry>
+                    <dt>oper</dt>
+                    <dd>operator character (such as +, -, and =) within
+                                syntax<p>Example:<syntaxdiagram id="syntaxdiagram_pfw_f3f_x1c">
+                                <title>Adding</title>
+                                <groupseq>
+                                    <kwd>1</kwd>
+                                    <oper>+</oper>
+                                    <var>two</var>
+                                    <delim>=</delim>
+                                    <kwd>something</kwd>
+                                </groupseq>
+                            </syntaxdiagram></p></dd>
+                </dlentry>
+                <dlentry>
+                    <dt>delim</dt>
+                    <dd>delimiter character (such as /, |, and ;) within
+                                syntax<p>Example:<syntaxdiagram id="syntaxdiagram_vg3_k3f_x1c">
+                                <title>Adding</title>
+                                <groupseq>
+                                    <kwd>1</kwd>
+                                    <oper>+</oper>
+                                    <var>two</var>
+                                    <delim>=</delim>
+                                    <kwd>something</kwd>
+                                </groupseq>
+                            </syntaxdiagram></p></dd>
+                </dlentry>
+                <dlentry>
+                    <dt>sep</dt>
+                    <dd>separator character within syntax<p>Example:<syntaxdiagram
+                                id="syntaxdiagram_hm2_l3f_x1c">
+                                <title>Adding</title>
+                                <groupseq>
+                                    <kwd>1</kwd>
+                                    <oper>+</oper>
+                                    <sep>(</sep>
+                                    <var>two</var>
+                                    <sep>)</sep>
+                                    <delim>=</delim>
+                                    <kwd>something</kwd>
+                                </groupseq>
+                            </syntaxdiagram></p></dd>
+                </dlentry>
+                <dlentry>
+                    <dt>repsep</dt>
+                    <dd>separator character for repeated syntax elements<p>Example:<syntaxdiagram>
+                                <groupchoice>
+                                    <repsep>,</repsep>
+                                    <kwd>This </kwd>
+                                    <kwd>That</kwd>
+                                    <kwd>The other</kwd>
+                                </groupchoice>
+                            </syntaxdiagram></p></dd>
+                </dlentry>
+            </dl></p>
+    </conbody>
+</concept>

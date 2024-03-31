@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="utilities_domain_elements">
+    <title>Utilities domain elements</title>
+    <shortdesc>The elements in the utilities domain each have a specific purpose in defining image
+        map properties.</shortdesc>
+    <conbody>
+        <p>
+            <dl>
+                <dlentry>
+                    <dt>imagemap</dt>
+                    <dd>client-side image map</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>area</dt>
+                    <dd>hotspot area within an image map</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>coords</dt>
+                    <dd>co-ordinates of a hotspot area within an image map</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>shape</dt>
+                    <dd>shape of a hotspot area within an image map</dd>
+                </dlentry>
+            </dl>
+        </p>
+        <example id="example_eyw_13z_w1c">Example of the utilities domain elements: The following
+            image is inserted using the imagemap element. A shape is marked which has the
+            co-ordinates and the area is linked to a reference. <imagemap id="imagemap_vrw_k3z_w1c">
+                <image href="bsm.jpg" id="image_wrw_k3z_w1c"/>
+                <area>
+                    <shape>poly</shape>
+                    <coords>317, 417, 347, 443, 341, 477, 297, 476, 273, 456, 301, 455, 292,
+                        437</coords>
+                    <xref href="https://en.wikipedia.org/wiki/Electronic_City" format="html"
+                        scope="external">Electronic City</xref>
+                </area>
+                <area>
+                    <shape>circle</shape>
+                    <coords>252, 381, 25</coords>
+                    <xref href="https://en.wikipedia.org/wiki/Jayanagar" format="html"
+                        scope="external">Jayanagar</xref>
+                </area>
+                <area>
+                    <shape>rect</shape>
+                    <coords>222, 111, 272, 161</coords>
+                    <xref href="https://en.wikipedia.org/wiki/Devanahalli" format="html"
+                        scope="external">Devanahalli</xref>
+                </area>
+                <area>
+                    <shape>poly</shape>
+                    <coords>310, 254, 346, 277, 340, 319, 297, 318, 281, 280</coords>
+                    <xref href="https://en.wikipedia.org/wiki/Marathahalli" format="html"
+                        scope="external">Marathahalli</xref>
+                </area>
+            </imagemap></example>
+    </conbody>
+</concept>

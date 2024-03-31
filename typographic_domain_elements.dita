@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="typographic_domain_elements">
+    <title>Typographic domain elements</title>
+    <shortdesc>The typographic domain elements each have a specific styling purpose.</shortdesc>
+    <conbody>
+        <p>The following table lists various typographic domain elements.<table
+                id="table_lr4_ngr_x1c">
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="2.85*"/>
+                    <thead>
+                        <row>
+                            <entry align="left">Element name</entry>
+                            <entry align="left">Semantic purpose</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>b</entry>
+                            <entry>bold (strong)</entry>
+                        </row>
+                        <row>
+                            <entry>i</entry>
+                            <entry>italic (emphasis)</entry>
+                        </row>
+                        <row>
+                            <entry>u</entry>
+                            <entry>underlined</entry>
+                        </row>
+                        <row>
+                            <entry>tt</entry>
+                            <entry>teletype (typewriter)</entry>
+                        </row>
+                        <row>
+                            <entry>sup</entry>
+                            <entry>superscript</entry>
+                        </row>
+                        <row>
+                            <entry>sub</entry>
+                            <entry>subscript</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table></p>
+    </conbody>
+</concept>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="map_elements">
+    <title>Body Elements</title>
+    <shortdesc>The simple block structures within the body of topics are categorized as the
+            <i>body</i> elements.</shortdesc>
+    <conbody>
+        <p>Body elements are the most common content authoring block elements, and include: <ul
+                id="ul_ogm_3ry_w1c">
+                <li> paragraph </li>
+                <li>list </li>
+                <li>phrase </li>
+                <li>figure </li>
+            </ul></p>
+    </conbody>
+</concept>

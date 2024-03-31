@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="metadata_domain_elements">
+    <title>Metadata domain elements</title>
+    <shortdesc>The elements in the metadata domain each have a specific semantic
+        purpose.</shortdesc>
+    <conbody>
+        <p>The following table lists various typographic domain elements.<table
+                id="table_tpz_ghr_x1c">
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="2.51*"/>
+                    <thead>
+                        <row>
+                            <entry align="left">Element name</entry>
+                            <entry align="left">Semantic purpose</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>index-see</entry>
+                            <entry>redirection to another index entry</entry>
+                        </row>
+                        <row>
+                            <entry>index-see-also</entry>
+                            <entry>additional redirection to another index entry</entry>
+                        </row>
+                        <row>
+                            <entry>index-sort-as</entry>
+                            <entry>alternative sort phrase for an index entry</entry>
+                        </row>
+                        <row>
+                            <entry>topicgroup</entry>
+                            <entry>non-hierarchical group of topics in a ditamap</entry>
+                        </row>
+                        <row>
+                            <entry>topichead</entry>
+                            <entry>title only heading entry in a ditamap</entry>
+                        </row>
+                        <row>
+                            <entry>authorinformation</entry>
+                            <entry>author information (in a bookmap)</entry>
+                        </row>
+                        <row>
+                            <entry>addressdetails</entry>
+                            <entry>address details (in a bookmap)</entry>
+                        </row>
+                        <row>
+                            <entry>administrativearea</entry>
+                            <entry>address county, state, province or other administrative area
+                                within address details (in a bookmap)</entry>
+                        </row>
+                        <row>
+                            <entry>contactnumber</entry>
+                            <entry>contact telephone number within a group of contact numbers (in a
+                                bookmap)</entry>
+                        </row>
+                        <row>
+                            <entry>contactnumbers</entry>
+                            <entry>group of contact telephone numbers within address details (in a
+                                bookmap)</entry>
+                        </row>
+                        <row>
+                            <entry>country</entry>
+                            <entry>address country within address details (in a bookmap)</entry>
+                        </row>
+                        <row>
+                            <entry>emailaddresses</entry>
+                            <entry>group of e-mail addresses within address details (in a
+                                bookmap)</entry>
+                        </row>
+                        <row>
+                            <entry>emailaddress</entry>
+                            <entry>e-mail address within a group of e-mail addresses (in a
+                                bookmap)</entry>
+                        </row>
+                        <row>
+                            <entry>firstname</entry>
+                            <entry>first or given name within name details (in a bookmap)</entry>
+                        </row>
+                        <row>
+                            <entry>generationidentifier</entry>
+                            <entry>generation identifier within name details (in a bookmap)</entry>
+                        </row>
+                        <row>
+                            <entry>honorific</entry>
+                            <entry>honorific within name details (in a bookmap)</entry>
+                        </row>
+                        <row>
+                            <entry>lastname</entry>
+                            <entry>last or family name within name details (in a bookmap)</entry>
+                        </row>
+                        <row>
+                            <entry>locality</entry>
+                            <entry>locality or city within address details (in a bookmap)</entry>
+                        </row>
+                        <row>
+                            <entry>localityname</entry>
+                            <entry>locality name within locality (in a bookmap)</entry>
+                        </row>
+                        <row>
+                            <entry>middlename</entry>
+                            <entry>middle name within name details (in a bookmap)</entry>
+                        </row>
+                        <row>
+                            <entry>namedetails</entry>
+                            <entry>name details within organisation information (in a
+                                bookmap)</entry>
+                        </row>
+                        <row>
+                            <entry>organizationinfo</entry>
+                            <entry>organisation information (in a bookmap)</entry>
+                        </row>
+                        <row>
+                            <entry>organizationname</entry>
+                            <entry>organisation name within organisation name details (in a
+                                bookmap)</entry>
+                        </row>
+                        <row>
+                            <entry>organizationnamedetails</entry>
+                            <entry>organisation name details within name details (in a
+                                bookmap)</entry>
+                        </row>
+                        <row>
+                            <entry>otherinfo</entry>
+                            <entry>other information within organisation name details (in a
+                                bookmap)</entry>
+                        </row>
+                        <row>
+                            <entry>personinfo</entry>
+                            <entry>person information (in a bookmap)</entry>
+                        </row>
+                        <row>
+                            <entry>personname</entry>
+                            <entry>person name within name details (in a bookmap)</entry>
+                        </row>
+                        <row>
+                            <entry>postalcode</entry>
+                            <entry>postal code or zip code within locality (in a bookmap)</entry>
+                        </row>
+                        <row>
+                            <entry>thoroughfare</entry>
+                            <entry>street, road, or other thoroughfare within address details (in a
+                                bookmap)</entry>
+                        </row>
+                        <row>
+                            <entry>url</entry>
+                            <entry>URL or URI within a group of URLs (in a bookmap)</entry>
+                        </row>
+                        <row>
+                            <entry>urls</entry>
+                            <entry>group of URLs or URIs within organisation details (in a
+                                bookmap)</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table></p>
+    </conbody>
+</concept>

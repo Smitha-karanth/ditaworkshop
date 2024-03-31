@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="user_interface_domain_elements">
+    <title>User Interface Domain Elements</title>
+    <conbody>
+        <p>The elements in the user interface domain each have a specific semantic purpose.</p>
+        <dl id="dl_exd_jht_v1c">
+            <dlentry>
+                <dt>uicontrol</dt>
+                <dd>user interface control<p>For example: Click <uicontrol>File </uicontrol>and
+                        select <uicontrol>New</uicontrol> to launch the <uicontrol>New
+                            Project</uicontrol> dialog.</p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>wintitle</dt>
+                <dd>Window title<p>Click <menucascade>
+                            <uicontrol>File</uicontrol>
+                            <uicontrol>New</uicontrol>
+                        </menucascade> to launch the <wintitle>New Project</wintitle>
+                    dialog.</p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>menucascade</dt>
+                <dd>Options representing cascading a menu<p>Click <menucascade>
+                            <uicontrol>File</uicontrol>
+                            <uicontrol>New</uicontrol>
+                        </menucascade> to launch the New Project dialog.</p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>shortcut</dt>
+                <dd>Shortcut<p>Click <menucascade>
+                            <uicontrol>File</uicontrol>
+                            <uicontrol>New</uicontrol>
+                        </menucascade> to launch the <wintitle>New Project</wintitle> dialog.
+                        Alternatively, press <uicontrol><shortcut>Ctrl+N</shortcut></uicontrol>
+                        keys.</p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>screen</dt>
+                <dd>Character (text only) screen<p>
+                        <screen id="screen_nrj_4jt_v1c">C:\Users>cmd
+Microsoft Windows [Version 10.0.22631.3296]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users>dir
+ Volume in drive C is Windows
+ Volume Serial Number is CA39-F4E9
+
+ Directory of C:\Users
+
+22-08-2023  17:39    &lt;DIR>          .
+01-09-2023  12:33    &lt;DIR>          defaultuser100000
+01-09-2023  12:33    &lt;DIR>          defaultuser100000.smdkaranth
+21-11-2023  09:58    &lt;DIR>          gmkar
+03-11-2022  10:05    &lt;DIR>          Public
+12-03-2024  21:41    &lt;DIR>          smith
+               0 File(s)              0 bytes
+               6 Dir(s)  323,181,039,616 bytes free
+
+C:\Users></screen>
+                    </p></dd>
+            </dlentry>
+        </dl>
+    </conbody>
+</concept>
