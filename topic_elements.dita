@@ -2,8 +2,6 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="topic_elements">
     <title>Topic Elements</title>
-    <shortdesc>The <i>topic elements</i> are the basic structural building blocks of all information
-        types.</shortdesc>
     <conbody>
         <p>The topic elements are the main structural elements of topics. Some topic elements are
             generic (i.e., inherited from the <i>topic</i> proto information type), while others are
