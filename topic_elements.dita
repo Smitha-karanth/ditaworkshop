@@ -7,7 +7,8 @@
     <conbody>
         <p>The topic elements are the main structural elements of topics. Some topic elements are
             generic (i.e., inherited from the <i>topic</i> proto information type), while others are
-            specific to the concept, task or reference information types.</p>
+            specific to the concept, task or reference information types.<note id="note_avr_ky1_y1c"
+                >This is a note</note></p>
         <p>Examples of topic elements include:<ul id="ul_itq_1ry_w1c">
                 <li>topic (and concept, task, reference) </li>
                 <li>titlealts </li>
